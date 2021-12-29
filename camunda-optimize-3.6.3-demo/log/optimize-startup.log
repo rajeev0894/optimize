@@ -1,0 +1,9 @@
+
+Starting Camunda Optimize 3.6.3...
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by nonapi.io.github.classgraph.utils.ReflectionUtils$StandardReflectionDriver$1 (file:/C:/Users/Lenovo/Downloads/camunda-optimize-3.6.3-demo/lib/classgraph-4.8.120.jar) to method sun.management.RuntimeImpl.getInputArguments()
+WARNING: Please consider reporting this to the maintainers of nonapi.io.github.classgraph.utils.ReflectionUtils$StandardReflectionDriver$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+^C

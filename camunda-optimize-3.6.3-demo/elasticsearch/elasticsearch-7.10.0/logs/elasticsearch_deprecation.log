@@ -1,0 +1,6 @@
+[2021-12-28T23:36:03,663][DEPRECATION][o.e.d.n.Node             ] [DESKTOP-C9UG0I4] no-jdk distributions that do not bundle a JDK are deprecated and will be removed in a future release
+[2021-12-28T23:38:35,297][DEPRECATION][o.e.d.n.Node             ] [DESKTOP-C9UG0I4] no-jdk distributions that do not bundle a JDK are deprecated and will be removed in a future release
+[2021-12-28T23:39:20,138][DEPRECATION][o.e.d.c.m.IndexNameExpressionResolver] [DESKTOP-C9UG0I4] this request accesses system indices: [.tasks], but in a future major version, direct access to system indices will be prevented by default
+[2021-12-28T23:39:20,153][DEPRECATION][o.e.d.c.m.IndexNameExpressionResolver] [DESKTOP-C9UG0I4] this request accesses system indices: [.tasks], but in a future major version, direct access to system indices will be prevented by default
+[2021-12-28T23:39:20,191][DEPRECATION][o.e.d.c.m.IndexNameExpressionResolver] [DESKTOP-C9UG0I4] this request accesses system indices: [.tasks], but in a future major version, direct access to system indices will be prevented by default
+[2021-12-28T23:39:20,238][DEPRECATION][o.e.d.c.m.IndexNameExpressionResolver] [DESKTOP-C9UG0I4] this request accesses system indices: [.tasks], but in a future major version, direct access to system indices will be prevented by default

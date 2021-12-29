@@ -1,0 +1,384 @@
+23:36:47.044 [main] INFO  o.c.o.s.e.OptimizeElasticsearchClientFactory - Initializing Elasticsearch rest client...
+23:36:48.986 [main] INFO  o.c.o.s.e.OptimizeElasticsearchClientFactory - Elasticsearch client has successfully been started
+23:36:50.273 [main] INFO  o.c.o.s.e.s.ElasticsearchMetadataService - Was not able to retrieve metadata index!
+23:36:50.474 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Initializing Optimize schema...
+23:37:11.642 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating or updating template with name optimize-variable-update-instance_v2
+23:37:11.880 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating index optimize-variable-update-instance_v2-000001 from template with write alias optimize-variable-update-instance
+23:37:13.015 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating or updating template with name optimize-event_v4
+23:37:13.331 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating index optimize-event_v4-000001 from template with write alias optimize-event
+23:37:26.671 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating or updating template with name optimize-external-process-variable_v1
+23:37:26.851 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating index optimize-external-process-variable_v1-000001 from template with write alias optimize-external-process-variable
+23:37:28.492 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Optimize schema initialized successfully.
+23:37:32.828 [main] INFO  o.c.o.s.i.PlatformUserIdentityCacheService - Initializing platform user identity sync.
+23:37:32.843 [main] INFO  o.c.o.s.i.PlatformUserIdentityCacheService - Scheduling platform user identity sync
+23:37:32.906 [main] INFO  o.c.o.s.i.PlatformUserTaskIdentityCacheService - Initializing platform assignee/candidateGroup identity sync.
+23:37:32.906 [main] INFO  o.c.o.s.i.PlatformUserTaskIdentityCacheService - Scheduling platform assignee/candidateGroup identity sync
+23:37:33.075 [PlatformUserTaskIdentityCacheService-1] INFO  o.c.o.s.e.CompositeAggregationScroller - Was not able to get next page of composite aggregation because at least one instance from [optimize-process-instance] does not exist.
+23:37:33.090 [PlatformUserTaskIdentityCacheService-1] INFO  o.c.o.s.e.CompositeAggregationScroller - Was not able to get next page of composite aggregation because at least one instance from [optimize-process-instance] does not exist.
+23:37:33.090 [PlatformUserTaskIdentityCacheService-1] INFO  o.c.o.s.i.PlatformUserTaskIdentityCacheService - platform assignee/candidateGroup identity sync complete
+23:37:33.682 [TerminatedSessionService-1] INFO  o.c.o.s.e.w.ElasticsearchWriterUtil - Progress of task (ID:f-QT706YTX2Syj_r6iZ-aA:226) on terminated user sessions with timestamp older than 2021-12-28T22:37:33.191-08:00: 0% (total: 0, updated: 0, created: 0, deleted: 0). Completed is false
+23:37:35.986 [main] INFO  o.c.o.s.cleanup.CleanupScheduler - Initializing OptimizeCleanupScheduler
+23:37:36.127 [main] INFO  o.c.o.s.cleanup.CleanupScheduler - Stopping cleanup scheduling
+23:37:39.411 [PlatformUserIdentityCacheService-1] INFO  o.c.o.s.i.PlatformUserIdentityCacheService - platform user identity sync complete
+23:37:42.957 [main] INFO  o.c.o.s.u.c.e.EventIngestionConfiguration - No ingestion api secret was configured, generated a temporary token [F8kjdJvshKvHtsVs].
+23:37:43.084 [main] INFO  o.c.o.s.telemetry.TelemetryScheduler - Initializing TelemetryScheduler
+23:37:43.084 [main] INFO  o.c.o.s.telemetry.TelemetryScheduler - Starting telemetry scheduling
+23:37:43.084 [TelemetryScheduler-1] INFO  o.c.o.s.telemetry.TelemetryScheduler - Checking whether telemetry data can be sent.
+23:37:43.084 [TelemetryScheduler-1] INFO  o.c.o.s.telemetry.TelemetryScheduler - Telemetry disabled.
+23:37:46.990 [main] INFO  o.c.o.s.u.c.VariableIngestionConfiguration - No variable ingestion api secret was configured, generated a temporary token [GbWbHex4j9nTlhtz].
+23:37:46.990 [main] INFO  o.c.o.s.i.ImportSchedulerManagerService - Import was disabled by config for import source IngestedDataSourceDto(super=DataSourceDto(type=ingested, name=null)).
+23:37:47.006 [main] INFO  o.c.o.s.i.AbstractImportScheduler - Start scheduling import from EngineDataSourceDto(super=DataSourceDto(type=engine, name=camunda-bpm)).
+23:37:47.398 [EngineImportScheduler-1] INFO  o.c.o.s.e.w.ElasticsearchWriterUtil - Progress of task (ID:f-QT706YTX2Syj_r6iZ-aA:369) on 4 decision definitions: 0% (total: 0, updated: 0, created: 0, deleted: 0). Completed is false
+23:37:48.029 [EngineImportScheduler-1] INFO  o.c.o.s.e.w.ElasticsearchWriterUtil - Progress of task (ID:f-QT706YTX2Syj_r6iZ-aA:396) on 4 process definitions: 0% (total: 0, updated: 0, created: 0, deleted: 0). Completed is false
+23:37:49.518 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.d.AbstractDefinitionResolverService - Definition with id [invoice-assign-approver:2:c6ae38c9-4b61-11ec-8c53-48e24430316b] hasn't been imported yet. Trying to directly fetch the definition from the engine.
+23:37:51.131 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.d.AbstractDefinitionResolverService - Definition with id [invoice:1:c537020c-4b61-11ec-8c53-48e24430316b] hasn't been imported yet. Trying to directly fetch the definition from the engine.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [approverGroups] with type [Object] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [approverGroups] with type [Object] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [approverGroups] with type [Object] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [approverGroups] with type [Object] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [approverGroups] with type [Object] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [approverGroups] with type [Object] from variable import adapter plugin. Variable has no type or type is not supported.
+23:37:53.374 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:39:17.636 [main] INFO  o.c.o.s.e.OptimizeElasticsearchClientFactory - Initializing Elasticsearch rest client...
+23:39:18.512 [main] INFO  o.c.o.s.e.OptimizeElasticsearchClientFactory - Elasticsearch client has successfully been started
+23:39:19.004 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Updating Optimize schema...
+23:39:19.541 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating or updating template with name optimize-variable-update-instance_v2
+23:39:19.759 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating or updating template with name optimize-event_v4
+23:39:20.075 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Creating or updating template with name optimize-external-process-variable_v1
+23:39:20.508 [main] INFO  o.c.o.s.e.s.ElasticSearchSchemaManager - Finished updating Optimize schema.
+23:39:21.579 [main] INFO  o.c.o.s.i.PlatformUserIdentityCacheService - Initializing platform user identity sync.
+23:39:21.594 [main] INFO  o.c.o.s.i.PlatformUserIdentityCacheService - Scheduling platform user identity sync
+23:39:21.610 [main] INFO  o.c.o.s.i.PlatformUserTaskIdentityCacheService - Initializing platform assignee/candidateGroup identity sync.
+23:39:21.626 [main] INFO  o.c.o.s.i.PlatformUserTaskIdentityCacheService - Scheduling platform assignee/candidateGroup identity sync
+23:39:22.656 [TerminatedSessionService-1] INFO  o.c.o.s.e.w.ElasticsearchWriterUtil - Progress of task (ID:f-QT706YTX2Syj_r6iZ-aA:344) on terminated user sessions with timestamp older than 2021-12-28T22:39:21.742-08:00: 0% (total: 0, updated: 0, created: 0, deleted: 0). Completed is false
+23:39:24.005 [main] INFO  o.c.o.s.cleanup.CleanupScheduler - Initializing OptimizeCleanupScheduler
+23:39:24.085 [main] INFO  o.c.o.s.cleanup.CleanupScheduler - Stopping cleanup scheduling
+23:39:24.374 [PlatformUserTaskIdentityCacheService-1] INFO  o.c.o.s.i.PlatformUserTaskIdentityCacheService - platform assignee/candidateGroup identity sync complete
+23:39:24.679 [PlatformUserIdentityCacheService-1] INFO  o.c.o.s.i.PlatformUserIdentityCacheService - platform user identity sync complete
+23:39:26.832 [main] INFO  o.c.o.s.u.c.e.EventIngestionConfiguration - No ingestion api secret was configured, generated a temporary token [dTXxSGVAujH0Ccbe].
+23:39:26.976 [main] INFO  o.c.o.s.telemetry.TelemetryScheduler - Initializing TelemetryScheduler
+23:39:26.976 [main] INFO  o.c.o.s.telemetry.TelemetryScheduler - Starting telemetry scheduling
+23:39:26.986 [TelemetryScheduler-1] INFO  o.c.o.s.telemetry.TelemetryScheduler - Checking whether telemetry data can be sent.
+23:39:26.986 [TelemetryScheduler-1] INFO  o.c.o.s.telemetry.TelemetryScheduler - Telemetry disabled.
+23:39:29.678 [main] INFO  o.c.o.s.u.c.VariableIngestionConfiguration - No variable ingestion api secret was configured, generated a temporary token [L4gmFX7uRLtehe4Q].
+23:39:29.678 [main] INFO  o.c.o.s.i.ImportSchedulerManagerService - Import was disabled by config for import source IngestedDataSourceDto(super=DataSourceDto(type=ingested, name=null)).
+23:39:29.678 [main] INFO  o.c.o.s.i.AbstractImportScheduler - Start scheduling import from EngineDataSourceDto(super=DataSourceDto(type=engine, name=camunda-bpm)).
+23:39:29.871 [EngineImportScheduler-1] INFO  o.c.o.s.e.w.ElasticsearchWriterUtil - Progress of task (ID:f-QT706YTX2Syj_r6iZ-aA:510) on 2 decision definitions: 0% (total: 0, updated: 0, created: 0, deleted: 0). Completed is false
+23:39:30.153 [EngineImportScheduler-1] INFO  o.c.o.s.e.w.ElasticsearchWriterUtil - Progress of task (ID:f-QT706YTX2Syj_r6iZ-aA:529) on 1 process definitions: 0% (total: 0, updated: 0, created: 0, deleted: 0). Completed is false
+23:39:31.852 [EngineImportScheduler-1] INFO  o.c.o.s.i.e.s.VariableUpdateInstanceImportService - Refuse to add variable [invoiceDocument] with type [File] from variable import adapter plugin. Variable has no type or type is not supported.
+23:39:48.301 [qtp293474277-20] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.302 [qtp293474277-20] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:48.363 [qtp293474277-13] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.364 [qtp293474277-13] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:48.469 [qtp293474277-13] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.470 [qtp293474277-13] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:48.699 [qtp293474277-76] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.700 [qtp293474277-76] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:48.700 [qtp293474277-20] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.700 [qtp293474277-20] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:48.702 [qtp293474277-17] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.702 [qtp293474277-17] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:48.703 [qtp293474277-13] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:48.704 [qtp293474277-13] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.249 [qtp293474277-16] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.250 [qtp293474277-16] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.250 [qtp293474277-76] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.250 [qtp293474277-76] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.254 [qtp293474277-17] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.254 [qtp293474277-17] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.407 [qtp293474277-17] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.409 [qtp293474277-17] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.419 [qtp293474277-20] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.420 [qtp293474277-20] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.427 [qtp293474277-20] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.428 [qtp293474277-20] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.460 [qtp293474277-16] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.960 [qtp293474277-78] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.961 [qtp293474277-78] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:49.993 [qtp293474277-76] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:49.993 [qtp293474277-76] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!
+23:39:50.283 [qtp293474277-77] WARN  o.c.o.websocket.StatusWebSocket - Web socket connection terminated prematurely!
+23:39:50.382 [qtp293474277-77] ERROR o.c.o.websocket.StatusNotifier - can't write status to web socket
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:279)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:422)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:277)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:381)
+	at org.eclipse.jetty.websocket.common.io.FrameFlusher.flush(FrameFlusher.java:264)
+	at org.eclipse.jetty.websocket.common.io.FrameFlusher.process(FrameFlusher.java:193)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:223)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.outgoingFrame(AbstractWebSocketConnection.java:581)
+	at org.eclipse.jetty.websocket.common.extensions.AbstractExtension.nextOutgoingFrame(AbstractExtension.java:157)
+	at org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension.nextOutgoingFrame(PerMessageDeflateExtension.java:123)
+	at org.eclipse.jetty.websocket.common.extensions.compress.CompressExtension.access$1100(CompressExtension.java:45)
+	at org.eclipse.jetty.websocket.common.extensions.compress.CompressExtension$Flusher.compress(CompressExtension.java:580)
+	at org.eclipse.jetty.websocket.common.extensions.compress.CompressExtension$Flusher.deflate(CompressExtension.java:470)
+	at org.eclipse.jetty.websocket.common.extensions.compress.CompressExtension$Flusher.process(CompressExtension.java:450)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:223)
+	at org.eclipse.jetty.websocket.common.extensions.compress.CompressExtension.outgoingFrame(CompressExtension.java:234)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack$Flusher.process(ExtensionStack.java:403)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:223)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.outgoingFrame(ExtensionStack.java:280)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.outgoingFrame(WebSocketSession.java:360)
+	at org.eclipse.jetty.websocket.common.WebSocketRemoteEndpoint.uncheckedSendFrame(WebSocketRemoteEndpoint.java:322)
+	at org.eclipse.jetty.websocket.common.WebSocketRemoteEndpoint.blockingWrite(WebSocketRemoteEndpoint.java:109)
+	at org.eclipse.jetty.websocket.common.WebSocketRemoteEndpoint.sendString(WebSocketRemoteEndpoint.java:400)
+	at org.eclipse.jetty.websocket.jsr356.JsrBasicRemote.sendText(JsrBasicRemote.java:107)
+	at org.camunda.optimize.websocket.StatusNotifier.sendStatus(StatusNotifier.java:75)
+	at org.camunda.optimize.websocket.StatusNotifier.<init>(StatusNotifier.java:34)
+	at org.camunda.optimize.websocket.StatusWebSocket.onOpen(StatusWebSocket.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.jetty.websocket.common.events.annotated.CallableMethod.call(CallableMethod.java:70)
+	at org.eclipse.jetty.websocket.jsr356.annotations.OnOpenCallable.call(OnOpenCallable.java:52)
+	at org.eclipse.jetty.websocket.jsr356.annotations.JsrEvents.callOpen(JsrEvents.java:170)
+	at org.eclipse.jetty.websocket.jsr356.endpoints.JsrAnnotatedEventDriver.onConnect(JsrAnnotatedEventDriver.java:189)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.openSession(AbstractEventDriver.java:217)
+	at org.eclipse.jetty.websocket.jsr356.endpoints.AbstractJsrEventDriver.openSession(AbstractJsrEventDriver.java:107)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.open(WebSocketSession.java:493)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.onOpened(WebSocketSession.java:459)
+	at org.eclipse.jetty.io.AbstractConnection.onOpened(AbstractConnection.java:213)
+	at org.eclipse.jetty.io.AbstractConnection.onOpen(AbstractConnection.java:205)
+	at org.eclipse.jetty.io.AbstractEndPoint.upgrade(AbstractEndPoint.java:444)
+	at org.eclipse.jetty.server.HttpConnection.onCompleted(HttpConnection.java:412)
+	at org.eclipse.jetty.server.HttpChannel.onCompleted(HttpChannel.java:832)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:182)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:130)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:496)
+	at java.base/java.nio.channels.SocketChannel.write(SocketChannel.java:507)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:273)
+	... 59 common frames omitted
+23:39:56.844 [qtp293474277-78] INFO  o.c.o.service.license.LicenseManager - 
+############### Heads up ################
+You tried to access Optimize, but no valid license could be
+found. Please enter a valid license key!  If you already have 
+a valid key you can have a look here, how to add it to Optimize:
+
+https://docs.camunda.org/optimize/3.6/user-guide/license/ 
+
+In case you don't have a valid license, feel free to contact us at:
+
+https://camunda.com/contact/
+
+You will now be redirected to the license page...
+23:39:56.846 [qtp293474277-78] WARN  o.c.optimize.jetty.LicenseFilter - Given License is invalid or not available!

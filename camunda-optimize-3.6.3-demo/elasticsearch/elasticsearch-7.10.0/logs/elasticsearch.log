@@ -1,0 +1,186 @@
+[2021-12-28T23:36:03,416][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] version[7.10.0], pid[8788], build[oss/zip/51e9d6f22758d0374a0f3f5c6e8f3a7997850f96/2020-11-09T21:30:33.964949Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.13/11.0.13+10-LTS-370]
+[2021-12-28T23:36:03,431][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] JVM home [C:\Program Files\Java\jdk-11.0.13]
+[2021-12-28T23:36:03,679][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Djava.io.tmpdir=C:\Users\Lenovo\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=536870912, -Delasticsearch, -Des.path.home=C:\Users\Lenovo\Downloads\camunda-optimize-3.6.3-demo\elasticsearch\elasticsearch-7.10.0, -Des.path.conf=C:\Users\Lenovo\Downloads\camunda-optimize-3.6.3-demo\elasticsearch\elasticsearch-7.10.0\config, -Des.distribution.flavor=oss, -Des.distribution.type=zip, -Des.bundled_jdk=false]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [aggs-matrix-stats]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [analysis-common]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [geo]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [ingest-common]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [ingest-geoip]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [ingest-user-agent]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [kibana]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [lang-expression]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [lang-mustache]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [lang-painless]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [mapper-extras]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [parent-join]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [percolator]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [rank-eval]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [reindex]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [repository-url]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [transport-netty4]
+[2021-12-28T23:36:13,155][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] no plugins loaded
+[2021-12-28T23:36:13,418][INFO ][o.e.e.NodeEnvironment    ] [DESKTOP-C9UG0I4] using [1] data paths, mounts [[(C:)]], net usable_space [121gb], net total_space [197.9gb], types [NTFS]
+[2021-12-28T23:36:13,418][INFO ][o.e.e.NodeEnvironment    ] [DESKTOP-C9UG0I4] heap size [990.7mb], compressed ordinary object pointers [true]
+[2021-12-28T23:36:14,282][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] node name [DESKTOP-C9UG0I4], node ID [f-QT706YTX2Syj_r6iZ-aA], cluster name [elasticsearch], roles [master, remote_cluster_client, data, ingest]
+[2021-12-28T23:36:21,976][INFO ][o.e.t.NettyAllocator     ] [DESKTOP-C9UG0I4] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=1mb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=false, g1gc_region_size=0b, heap_size=990.7mb}]
+[2021-12-28T23:36:22,223][INFO ][o.e.d.DiscoveryModule    ] [DESKTOP-C9UG0I4] using discovery type [zen] and seed hosts providers [settings]
+[2021-12-28T23:36:22,770][WARN ][o.e.g.DanglingIndicesState] [DESKTOP-C9UG0I4] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2021-12-28T23:36:23,067][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] initialized
+[2021-12-28T23:36:23,075][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] starting ...
+[2021-12-28T23:36:24,564][INFO ][o.e.t.TransportService   ] [DESKTOP-C9UG0I4] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-12-28T23:36:25,233][WARN ][o.e.b.BootstrapChecks    ] [DESKTOP-C9UG0I4] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2021-12-28T23:36:25,264][INFO ][o.e.c.c.ClusterBootstrapService] [DESKTOP-C9UG0I4] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2021-12-28T23:36:28,449][INFO ][o.e.c.c.Coordinator      ] [DESKTOP-C9UG0I4] setting initial configuration to VotingConfiguration{f-QT706YTX2Syj_r6iZ-aA}
+[2021-12-28T23:36:28,834][INFO ][o.e.c.s.MasterService    ] [DESKTOP-C9UG0I4] elected-as-master ([1] nodes joined)[{DESKTOP-C9UG0I4}{f-QT706YTX2Syj_r6iZ-aA}{FmdWQ4quRT6mvQwuOxAuTg}{127.0.0.1}{127.0.0.1:9300}{dimr} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{DESKTOP-C9UG0I4}{f-QT706YTX2Syj_r6iZ-aA}{FmdWQ4quRT6mvQwuOxAuTg}{127.0.0.1}{127.0.0.1:9300}{dimr}]}
+[2021-12-28T23:36:29,001][INFO ][o.e.c.c.CoordinationState] [DESKTOP-C9UG0I4] cluster UUID set to [klyY0CpDT2q_SIR0_N_Qwg]
+[2021-12-28T23:36:29,235][INFO ][o.e.c.s.ClusterApplierService] [DESKTOP-C9UG0I4] master node changed {previous [], current [{DESKTOP-C9UG0I4}{f-QT706YTX2Syj_r6iZ-aA}{FmdWQ4quRT6mvQwuOxAuTg}{127.0.0.1}{127.0.0.1:9300}{dimr}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2021-12-28T23:36:29,382][INFO ][o.e.g.GatewayService     ] [DESKTOP-C9UG0I4] recovered [0] indices into cluster_state
+[2021-12-28T23:36:29,888][INFO ][o.e.h.AbstractHttpServerTransport] [DESKTOP-C9UG0I4] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-12-28T23:36:29,888][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] started
+[2021-12-28T23:36:51,191][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-alert_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:36:52,880][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-business-key_v2] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:36:54,331][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-collection_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:36:55,688][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-dashboard_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:36:57,672][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-dashboard-share_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:36:58,859][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-decision-definition_v5] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:00,125][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-license_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:01,427][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-metadata_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:03,411][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-onboarding-state_v2] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:05,159][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-process-definition_v5] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:06,656][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-report-share_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:07,913][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-settings_v1] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:09,097][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-tenant_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:10,311][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-terminated-user-session_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:11,727][INFO ][o.e.c.m.MetadataIndexTemplateService] [DESKTOP-C9UG0I4] adding template [optimize-variable-update-instance_v2] for index patterns [optimize-variable-update-instance_v2*]
+[2021-12-28T23:37:11,912][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-variable-update-instance_v2-000001] creating index, cause [api], templates [optimize-variable-update-instance_v2], shards [1]/[1]
+[2021-12-28T23:37:13,046][INFO ][o.e.c.m.MetadataIndexTemplateService] [DESKTOP-C9UG0I4] adding template [optimize-event_v4] for index patterns [optimize-event_v4*]
+[2021-12-28T23:37:13,385][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-event_v4-000001] creating index, cause [api], templates [optimize-event_v4], shards [1]/[1]
+[2021-12-28T23:37:14,731][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-event-process-definition_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:16,231][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-event-process-mapping_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:17,457][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-event-process-publish-state_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:18,698][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-import-index_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:20,132][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-timestamp-based-import-index_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:21,407][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-position-based-import-index_v1] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:22,755][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-combined-report_v4] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:23,904][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-single-decision-report_v8] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:25,382][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-single-process-report_v8] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:26,687][INFO ][o.e.c.m.MetadataIndexTemplateService] [DESKTOP-C9UG0I4] adding template [optimize-external-process-variable_v1] for index patterns [optimize-external-process-variable_v1*]
+[2021-12-28T23:37:26,861][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-external-process-variable_v1-000001] creating index, cause [api], templates [optimize-external-process-variable_v1], shards [1]/[1]
+[2021-12-28T23:37:33,732][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [.tasks] creating index, cause [auto(task api)], templates [], shards [1]/[1]
+[2021-12-28T23:37:33,735][INFO ][o.e.c.r.a.AllocationService] [DESKTOP-C9UG0I4] updating number_of_replicas to [0] for indices [.tasks]
+[2021-12-28T23:37:37,052][INFO ][o.e.t.LoggingTaskListener] [DESKTOP-C9UG0I4] 226 finished with response BulkByScrollResponse[took=384ms,timed_out=false,sliceId=null,updated=0,created=0,deleted=0,batches=0,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2021-12-28T23:37:40,175][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-event-trace-state-external_v2] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:41,493][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-event-sequence-count-external_v3] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:47,623][INFO ][o.e.t.LoggingTaskListener] [DESKTOP-C9UG0I4] 369 finished with response BulkByScrollResponse[took=152.8ms,timed_out=false,sliceId=null,updated=0,created=0,deleted=0,batches=0,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2021-12-28T23:37:48,181][INFO ][o.e.c.m.MetadataMappingService] [DESKTOP-C9UG0I4] [optimize-decision-definition_v5/t9K1wFuwTEiBY2C26AwOyw] update_mapping [_doc]
+[2021-12-28T23:37:48,605][INFO ][o.e.t.LoggingTaskListener] [DESKTOP-C9UG0I4] 396 finished with response BulkByScrollResponse[took=458.5ms,timed_out=false,sliceId=null,updated=0,created=0,deleted=0,batches=0,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2021-12-28T23:37:49,028][INFO ][o.e.c.m.MetadataMappingService] [DESKTOP-C9UG0I4] [optimize-process-definition_v5/sBS5A5nQTCytb2-r23_ZSw] update_mapping [_doc]
+[2021-12-28T23:37:50,725][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-decision-instance-invoiceclassification_v5] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:51,458][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-process-instance-process_v8] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:52,808][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-process_v8]
+[2021-12-28T23:37:52,815][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-process_v8]
+[2021-12-28T23:37:52,946][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-process-instance-reviewinvoice_v8] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:55,616][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-process-instance-invoice_v8] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:56,321][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-reviewinvoice_v8]
+[2021-12-28T23:37:57,632][INFO ][o.e.c.m.MetadataCreateIndexService] [DESKTOP-C9UG0I4] [optimize-decision-instance-invoice-assign-approver_v5] creating index, cause [api], templates [], shards [1]/[1]
+[2021-12-28T23:37:58,332][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-reviewinvoice_v8]
+[2021-12-28T23:37:58,334][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-reviewinvoice_v8]
+[2021-12-28T23:37:58,334][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-reviewinvoice_v8]
+[2021-12-28T23:37:58,334][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-reviewinvoice_v8]
+[2021-12-28T23:37:59,052][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:37:59,083][INFO ][o.e.c.m.MetadataMappingService] [DESKTOP-C9UG0I4] [optimize-process-instance-process_v8/BpPlbuSETlOae-mJMK2p3Q] update_mapping [_doc]
+[2021-12-28T23:38:01,227][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:38:01,230][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:38:01,232][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:38:01,232][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:38:01,392][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:38:01,483][INFO ][o.e.c.m.MetadataMappingService] [DESKTOP-C9UG0I4] [optimize-process-instance-invoice_v8/ederqYDoT-K2f20i4NP3Pg] update_mapping [_doc]
+[2021-12-28T23:38:02,390][INFO ][o.e.c.m.MetadataMappingService] [DESKTOP-C9UG0I4] [optimize-process-instance-reviewinvoice_v8/x7lbOi0GQ--OpJ1vm_N2fg] update_mapping [_doc]
+[2021-12-28T23:38:13,242][INFO ][o.e.b.Bootstrap          ] [DESKTOP-C9UG0I4] running graceful exit on windows
+[2021-12-28T23:38:13,242][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] stopping ...
+[2021-12-28T23:38:15,713][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] stopped
+[2021-12-28T23:38:15,713][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] closing ...
+[2021-12-28T23:38:15,766][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] closed
+[2021-12-28T23:38:35,282][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] version[7.10.0], pid[20348], build[oss/zip/51e9d6f22758d0374a0f3f5c6e8f3a7997850f96/2020-11-09T21:30:33.964949Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.13/11.0.13+10-LTS-370]
+[2021-12-28T23:38:35,297][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] JVM home [C:\Program Files\Java\jdk-11.0.13]
+[2021-12-28T23:38:35,297][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Djava.io.tmpdir=C:\Users\Lenovo\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=536870912, -Delasticsearch, -Des.path.home=C:\Users\Lenovo\Downloads\camunda-optimize-3.6.3-demo\elasticsearch\elasticsearch-7.10.0, -Des.path.conf=C:\Users\Lenovo\Downloads\camunda-optimize-3.6.3-demo\elasticsearch\elasticsearch-7.10.0\config, -Des.distribution.flavor=oss, -Des.distribution.type=zip, -Des.bundled_jdk=false]
+[2021-12-28T23:38:37,218][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [aggs-matrix-stats]
+[2021-12-28T23:38:37,218][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [analysis-common]
+[2021-12-28T23:38:37,218][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [geo]
+[2021-12-28T23:38:37,218][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [ingest-common]
+[2021-12-28T23:38:37,218][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [ingest-geoip]
+[2021-12-28T23:38:37,218][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [ingest-user-agent]
+[2021-12-28T23:38:37,226][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [kibana]
+[2021-12-28T23:38:37,226][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [lang-expression]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [lang-mustache]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [lang-painless]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [mapper-extras]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [parent-join]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [percolator]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [rank-eval]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [reindex]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [repository-url]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] loaded module [transport-netty4]
+[2021-12-28T23:38:37,228][INFO ][o.e.p.PluginsService     ] [DESKTOP-C9UG0I4] no plugins loaded
+[2021-12-28T23:38:37,279][INFO ][o.e.e.NodeEnvironment    ] [DESKTOP-C9UG0I4] using [1] data paths, mounts [[(C:)]], net usable_space [121gb], net total_space [197.9gb], types [NTFS]
+[2021-12-28T23:38:37,287][INFO ][o.e.e.NodeEnvironment    ] [DESKTOP-C9UG0I4] heap size [990.7mb], compressed ordinary object pointers [true]
+[2021-12-28T23:38:37,763][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] node name [DESKTOP-C9UG0I4], node ID [f-QT706YTX2Syj_r6iZ-aA], cluster name [elasticsearch], roles [master, remote_cluster_client, data, ingest]
+[2021-12-28T23:38:43,060][INFO ][o.e.t.NettyAllocator     ] [DESKTOP-C9UG0I4] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=1mb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=false, g1gc_region_size=0b, heap_size=990.7mb}]
+[2021-12-28T23:38:43,176][INFO ][o.e.d.DiscoveryModule    ] [DESKTOP-C9UG0I4] using discovery type [zen] and seed hosts providers [settings]
+[2021-12-28T23:38:43,698][WARN ][o.e.g.DanglingIndicesState] [DESKTOP-C9UG0I4] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2021-12-28T23:38:43,990][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] initialized
+[2021-12-28T23:38:43,990][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] starting ...
+[2021-12-28T23:38:45,333][INFO ][o.e.t.TransportService   ] [DESKTOP-C9UG0I4] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-12-28T23:38:46,020][WARN ][o.e.b.BootstrapChecks    ] [DESKTOP-C9UG0I4] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2021-12-28T23:38:46,020][INFO ][o.e.c.c.Coordinator      ] [DESKTOP-C9UG0I4] cluster UUID [klyY0CpDT2q_SIR0_N_Qwg]
+[2021-12-28T23:38:46,236][INFO ][o.e.c.c.ClusterBootstrapService] [DESKTOP-C9UG0I4] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2021-12-28T23:38:46,621][INFO ][o.e.c.s.MasterService    ] [DESKTOP-C9UG0I4] elected-as-master ([1] nodes joined)[{DESKTOP-C9UG0I4}{f-QT706YTX2Syj_r6iZ-aA}{WR9_8DxJQlqushUgG2-reg}{127.0.0.1}{127.0.0.1:9300}{dimr} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 2, version: 78, delta: master node changed {previous [], current [{DESKTOP-C9UG0I4}{f-QT706YTX2Syj_r6iZ-aA}{WR9_8DxJQlqushUgG2-reg}{127.0.0.1}{127.0.0.1:9300}{dimr}]}
+[2021-12-28T23:38:46,978][INFO ][o.e.c.s.ClusterApplierService] [DESKTOP-C9UG0I4] master node changed {previous [], current [{DESKTOP-C9UG0I4}{f-QT706YTX2Syj_r6iZ-aA}{WR9_8DxJQlqushUgG2-reg}{127.0.0.1}{127.0.0.1:9300}{dimr}]}, term: 2, version: 78, reason: Publication{term=2, version=78}
+[2021-12-28T23:38:47,248][INFO ][o.e.g.GatewayService     ] [DESKTOP-C9UG0I4] recovered [34] indices into cluster_state
+[2021-12-28T23:38:48,127][INFO ][o.e.h.AbstractHttpServerTransport] [DESKTOP-C9UG0I4] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-12-28T23:38:48,127][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] started
+[2021-12-28T23:39:01,537][INFO ][o.e.c.r.a.AllocationService] [DESKTOP-C9UG0I4] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[optimize-business-key_v2][0]]]).
+[2021-12-28T23:39:19,046][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-alert_v4]
+[2021-12-28T23:39:19,129][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-business-key_v2]
+[2021-12-28T23:39:19,162][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-collection_v4]
+[2021-12-28T23:39:19,193][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-dashboard_v4]
+[2021-12-28T23:39:19,240][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-dashboard-share_v3]
+[2021-12-28T23:39:19,278][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-decision-definition_v5]
+[2021-12-28T23:39:19,309][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-license_v3]
+[2021-12-28T23:39:19,340][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-metadata_v3]
+[2021-12-28T23:39:19,363][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-onboarding-state_v2]
+[2021-12-28T23:39:19,378][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-definition_v5]
+[2021-12-28T23:39:19,409][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-report-share_v3]
+[2021-12-28T23:39:19,441][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-settings_v1]
+[2021-12-28T23:39:19,463][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-tenant_v3]
+[2021-12-28T23:39:19,479][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-terminated-user-session_v3]
+[2021-12-28T23:39:19,510][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-variable-update-instance_v2-000001]
+[2021-12-28T23:39:19,595][INFO ][o.e.c.m.MetadataIndexTemplateService] [DESKTOP-C9UG0I4] adding template [optimize-variable-update-instance_v2] for index patterns [optimize-variable-update-instance_v2*]
+[2021-12-28T23:39:19,749][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-event_v4-000001]
+[2021-12-28T23:39:19,790][INFO ][o.e.c.m.MetadataIndexTemplateService] [DESKTOP-C9UG0I4] adding template [optimize-event_v4] for index patterns [optimize-event_v4*]
+[2021-12-28T23:39:19,837][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-event-process-definition_v4]
+[2021-12-28T23:39:19,859][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-event-process-mapping_v4]
+[2021-12-28T23:39:19,890][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-event-process-publish-state_v4]
+[2021-12-28T23:39:19,922][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-import-index_v3]
+[2021-12-28T23:39:19,937][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-timestamp-based-import-index_v4]
+[2021-12-28T23:39:19,959][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-position-based-import-index_v1]
+[2021-12-28T23:39:19,975][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-combined-report_v4]
+[2021-12-28T23:39:20,006][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-single-decision-report_v8]
+[2021-12-28T23:39:20,037][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-single-process-report_v8]
+[2021-12-28T23:39:20,060][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-external-process-variable_v1-000001]
+[2021-12-28T23:39:20,091][INFO ][o.e.c.m.MetadataIndexTemplateService] [DESKTOP-C9UG0I4] adding template [optimize-external-process-variable_v1] for index patterns [optimize-external-process-variable_v1*]
+[2021-12-28T23:39:20,254][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-event-sequence-count-external_v3]
+[2021-12-28T23:39:20,292][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-event-trace-state-external_v2]
+[2021-12-28T23:39:20,323][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-reviewinvoice_v8]
+[2021-12-28T23:39:20,392][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-process_v8]
+[2021-12-28T23:39:20,423][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-process-instance-invoice_v8]
+[2021-12-28T23:39:20,461][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-decision-instance-invoice-assign-approver_v5]
+[2021-12-28T23:39:20,477][INFO ][o.e.c.m.MetadataUpdateSettingsService] [DESKTOP-C9UG0I4] updating number_of_replicas to [1] for indices [optimize-decision-instance-invoiceclassification_v5]
+[2021-12-28T23:39:22,757][INFO ][o.e.t.LoggingTaskListener] [DESKTOP-C9UG0I4] 344 finished with response BulkByScrollResponse[took=630.5ms,timed_out=false,sliceId=null,updated=0,created=0,deleted=0,batches=0,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2021-12-28T23:39:29,984][INFO ][o.e.t.LoggingTaskListener] [DESKTOP-C9UG0I4] 510 finished with response BulkByScrollResponse[took=94.7ms,timed_out=false,sliceId=null,updated=0,created=0,deleted=0,batches=0,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2021-12-28T23:39:30,231][INFO ][o.e.t.LoggingTaskListener] [DESKTOP-C9UG0I4] 529 finished with response BulkByScrollResponse[took=55.6ms,timed_out=false,sliceId=null,updated=0,created=0,deleted=0,batches=0,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2021-12-28T23:42:10,096][INFO ][o.e.b.Bootstrap          ] [DESKTOP-C9UG0I4] running graceful exit on windows
+[2021-12-28T23:42:10,096][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] stopping ...
+[2021-12-28T23:42:12,930][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] stopped
+[2021-12-28T23:42:12,946][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] closing ...
+[2021-12-28T23:42:12,946][INFO ][o.e.n.Node               ] [DESKTOP-C9UG0I4] closed
